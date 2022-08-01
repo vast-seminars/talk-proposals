@@ -1,0 +1,34 @@
+name: Talk Proposal
+description: Propose a VAST Talk
+title: '[TALK proposal] <title>`
+
+body:
+- type: textarea
+  attributes:
+    label: Name of software library or topic
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: URL to the software repository
+    description: the full URL to a github/bitbucket/... repository hosting the software
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Name of person who will give the talk
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Email of person who will give the talk
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: abstract
+    description: describe not just what the software package does, but what core ideas you would like to share with the astronomy community.
+  validations:
+    required: true
+
+
